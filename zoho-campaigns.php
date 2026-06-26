@@ -51,6 +51,7 @@ class awesome_zoho_campaigns_wrapper {
     public $action=null;
     public $atts=null;
     public $content=null;
+    public $main=null;
 
     /**
       * Constructor for this class.

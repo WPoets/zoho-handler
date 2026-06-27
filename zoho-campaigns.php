@@ -2,7 +2,7 @@
 //  namespace aw2\zoho;
 
   \aw2_library::add_service('zoho.campaigns','Zoho campaigns',['namespace'=>__NAMESPACE__]);
-  function campaigns($atts,$content=null,$shortcode){
+  function campaigns($atts,$content=null,$shortcode=null){
       
     $return_value='';
 

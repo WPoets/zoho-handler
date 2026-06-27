@@ -12,7 +12,7 @@
 require_once  __DIR__ . '/includes/zoho.php';
 
 
-function config($atts,$content=null,$shortcode){
+function config($atts,$content=null,$shortcode=null){
     
     if(\aw2_library::pre_actions('all',$atts,$content,$shortcode)==false)return;
     
@@ -36,7 +36,7 @@ function config($atts,$content=null,$shortcode){
     return $return_value;
 }
 
-function crm($atts,$content=null,$shortcode){
+function crm($atts,$content=null,$shortcode=null){
 	if(\aw2_library::pre_actions('all',$atts,$content,$shortcode)==false)return;
 	extract( shortcode_atts( array(
 	'main'=>null,
